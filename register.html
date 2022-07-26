@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simran's Cafe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="register.css">
+
+</head>
+<body onload="clockstart()">
+  <div class="topnav">
+    <a  href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="imagegallery.html">Menu</a>
+    <a href="courses.html">Courses</a>
+    <a class="active" href="register.html">Booking</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+<div class="aboutheader">
+    <h1>Booking Form</h1>
+    <p></p>
+</div><br/>
+<div id="clock">
+      <h2 align="center">Hurry up! Time is running. Book your class to get 50% off for a week.</h2>
+
+      <font size="6px" color="black"><p align="center"><span id="date"> </span> <br/>
+      <span id="hour"> hh </span>:<span id="min"> mm </span>:<span id="sec"> ss </span>:<span id="ms"> ms </span></p></font>
+  </div>
+
+<div class = "register">
+
+<form action="#" style="border:1px solid #ccc">
+  <div class="container">
+    
+  
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</div>
+<script>
+    
+
+    dt = new Date();
+    day = dt.getDay();
+    days = dt.getDate();
+    month = dt.getMonth();
+    year = dt.getFullYear();
+
+    if(day==0) day="Sunday";
+    else if(day==1) day="Monday";
+    else if(day==2) day="Tuesday";
+    else if(day==3) day="Wednesday";
+    else if(day==4) day="Thursday";
+    else if(day==5) day="Friday";
+    else day="Saturday";
+
+    if(month==0) month="January";
+    else if(month==1) month="February";
+    else if(month==2) month="March";
+    else if(month==3) month="April";
+    else if(month==4) month="May";
+    else if(month==5) month="June";
+    else if(month==6) month="July";
+    else if(month==7) month="August";
+    else if(month==8) month="September";
+    else if(month==9) month="October";
+    else if(month==10) month="November";
+    else month="December";
+
+    document.getElementById("date").innerHTML = day +" "+ days + ", " + month + " " +year;
+  
+
+    function clockstart()
+    {
+      timerId = setInterval(update, 50)
+      update()   //(*)
+    }
+
+    function update()
+    {
+      var date = new Date()
+      var hours = date.getHours()
+        document.getElementById("hour").innerHTML = hours
+      var minutes = date.getMinutes()
+        document.getElementById("min").innerHTML = minutes
+      var seconds = date.getSeconds()
+        document.getElementById("sec").innerHTML = seconds
+      var ms = date.getMilliseconds()
+        document.getElementById("ms").innerHTML = ms
+    }
+  </script>
+</body>
+</html>

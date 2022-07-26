@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simran's Cafe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+  <script>
+    window.onload=choosePic;
+    var theAd= 0;
+    var myPix=["images/bbb.jpg","images/hj.jpg","images/kkk.jpg"];
+    length=myPix.length;
+    function choosePic(){
+      var randomNum= Math.floor(Math.random()*length);
+      document.getElementById("myPicture").src= myPix[randomNum];
+      rotate();
+    }
+    function rotate(){
+      theAd++;
+      if(theAd==myPix.length){
+        theAd=0;
+      }
+      document.getElementById("myPicture").src=myPix[theAd];
+      setTimeout(rotate, 3*1000);
+    }
+  </script>
+</head>
+<body>
+  <div class="topnav">
+  	<a class="active" href="index.html"><i class="fas fa-home "></i>Home</a>
+  	<a href="about.html"><i class="fab fa-adn"></i>About</a>
+    <a href="imagegallery.html"><i class="fas fa-images"></i>Menu</a>
+    <a href="courses.html"><i class="fas fa-book-open"></i>Courses</a>
+    <a href="register.html"><i class="fas fa-book"></i>Booking</a>
+    <a href="contact.html"><i class="fas fa-phone-square"></i>Contact</a>
+  </div>
+
+  <div class="header">
+    <img src="images/bbb.jpg" id="myPicture" alt="some image" width="100%" height="550px" style="opacity:0.7;" >
+     <h1 class="first-txt">Varieties of Bakery Items</h1>
+     <h3 class="second-txt">We bake different varieties of bakery items of unique flavours.</h3>
+  </div>
+
+  <div class = "information">
+  	<h1 align="center">OUR BESTSELLERS</h1>
+  </div>
+
+  <div class="row">
+  	<div class="column" style="background-color:white;">
+  		<img src="images/strawberry.jpg" alt="Paris" class="center">
+    	<p>Red Velvet Cake</p>
+    	<p>Some text..</p>
+    	<button class="button button1">Shop Now</button>
+  	</div>
+
+    <div class="column1" style="background-color:white;">
+    	<img src="images/yellow.jpg" alt="Paris" class="center1">
+    	<p>Red Velvet Cake</p>
+    	<p>Some text..</p>
+    	<button class="button button1">Shop Now</button>   	
+    </div>
+
+    <div class="column2" style="background-color:white;">
+    	<img src="images/blueberry.jpg" alt="Paris" class="center2">
+    	<p>Red Velvet Cake</p>
+    	<p>Some text..</p>
+    	<button class="button button1">Shop Now</button> 	
+    </div>
+
+    <div class="column3" style="background-color:white;">
+    	<img src="images/cake1.jpg" alt="Paris" class="center3">
+    	<p>Red Velvet Cake</p>
+    	<p>Some text..</p>
+    	<button class="button button1">Shop Now</button>
+    </div>
+  </div><br><br><br>
+
+  <div class="shopnow"> 
+
+  </div><br>
+
+  <div class = "information">
+  	<h1 align="center"></h1>
+  </div>
+
+  <div class="pictures">
+  	<div class="pic" style="background-color:white;">
+      <img src="images/join.png" alt="Paris" class="join1">
+    </div>
+    <div class="pic2" style="background-color:white;">    
+      <h2>Do you love baking?</h2>
+      <p>Join The Simran's Bakery mailing list for updates and news by entering your name and email address.</p>
+      <form action="/action_page.php">
+        <input type="text" id="fname" name="firstname" placeholder="First Name"><br/>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your address">
+        <input type="submit" value="Join">
+      </form>
+    </div> 
+  </div>
+  <br>
+
+<footer>
+  <p>@2022 The Simran's Bakery: All rights reserved.</p>
+</footer>
+<a href="#top"> goto top</a>
+</body>
+</html>

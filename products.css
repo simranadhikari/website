@@ -1,0 +1,368 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  width: 25%;
+  height: 300px; /* Should be removed. Only for demonstration */
+  float: left;
+  text-align: center;
+}
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center5{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center6{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center7{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center8{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center9{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center10{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center11{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center12{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center13{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center14{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+}
+
+.center15{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+  border: 5px solid #555;
+
+}
+
+.column1 {
+
+  width: 25%;
+  height: 300px; /* Should be removed. Only for demonstration */
+  float: left;
+  text-align: center;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column5 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column6 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column7 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.column8 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.column9 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column10 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.column11 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column12 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column13 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.column14 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column15 {
+  float: left;
+  width: 25%;
+  text-align: center;
+
+
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
