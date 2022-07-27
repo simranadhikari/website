@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Simran's Cafe</title>
+  <title>About Simran's Cafe</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="about.css">
 </head>
 <body>
-  <div class="topnav">
+  <div class="topnav"><div class="container-fluid fixedtop">
   	<a href="index.html">Home</a>
   	<a  class="active" href="about.html">About</a>
     <a href="imagegallery.html">Menu</a>
     <a href="courses.html">Courses</a>
     <a href="register.html">Booking</a>
     <a href="contact.html">Contact</a>
-  </div>
+  </div></div>
 
   <div class="aboutheader">
     <h1>About us</h1>
@@ -39,16 +39,115 @@
 
       
 
-
+  <br/>
     </div> 
   </div>
 
-<footer>
-  <p>@2022 The Simran's Bakery: All rights reserved.</p>
-</footer>
 
 
 
 
+  <div class="table1">
+    <table style="width:100%">
+  <tr>
+    <th colspan="2">Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+</table>
+
+  </div>
+
+
+  <footer class="container">
+    <div class ="row">
+    <div class="part1">
+        <img class="img-fluid" src="images/logo1.jpg" alt="logo">
+        <p>
+          Pastry Emporium is one of the famous bakery all over the world. The bakery items made here with natural ingredients...<a href="aboutus.html">Read More...</a>
+          </p>
+          <a style="color:#0000ff"  href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook-square "></i></a>
+          <a style="color:#ff4500"   href="https://www.instagram.com/"><i class="fab fa-2x fa-instagram"></i></a>
+          
+          <a style="color:#20b2aa" href="https://twitter.com/"><i class="fab fa-2x fa-twitter-square"></i></a>
+         <a style="color:#008000" href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-2x fa-google-plus"></i></a>
+    </div>
+         <div class="part2">
+                <h3>Important Links</h3>
+               
+                
+                <a href="aboutus.html">Privacy Policy</a><br>
+                <a href="aboutus.html">Nutritional Facts </a><br>
+                <a href="aboutus.html">Order Online/ Products</a><br>
+                <a href="aboutus.html">Allergy Information</a><br>
+                <a href="aboutus.html">Store Items/ Shipping</a><br>
+                <a href="aboutus.html">Hygiene Standard</a><br>
+               
+              </div>
+              <div class="part3">
+                    <h3>Our Services</h3>
+                    <a href="aboutus.html">Free Delivery</a><br>
+                    <a href="aboutus.html">Customized Cake</a><br>
+                    <a href="aboutus.html">Catering Service</a><br> 
+                    <a href="aboutus.html">Discount and offers</a><br>
+                    
+                    <a href="aboutus.html">Live Cupcake Bar</a><br> 
+                    <a href="aboutus.html">Special Orders</a><br> 
+                   
+
+
+
+                </div>
+              
+                <div class="part4">
+                    <h3>Contact Us</h3>
+                    
+
+                    <a class="p-1" href="tel:+9779876543210"><i class="fas fa-phone blue"></i>+(977) 9876543210</a><br>
+                    <a class="p-1" href="mailto:pastryemporium@gmail.com"><i class="fas fa-envelope-square red"></i> simranbakery@gmail.com</a>
+
+                 
+                  
+                  </div>
+
+                 </div><!--row closes-->
+            
+            
+          <hr>
+            
+            <div class="part5">
+
+            <p class="left">Copyrights &copy; 2019 - All rights reserved</p>
+            <p class="right"><a href="#">Back to top</a></p>
+            
+            
+            
+            </div>
+<script>
+window.onload=choosePic;
+var theAd= 0;
+var myPix=["images/bbb.jpg","images/hj.jpg","images/kkk.jpg"];
+length=myPix.length;
+function choosePic(){
+  var randomNum= Math.floor(Math.random()*length);
+  document.getElementById("myPicture").src= myPix[randomNum];
+  rotate();
+}
+function rotate(){
+  theAd++;
+  if(theAd==myPix.length){
+    theAd=0;
+  }
+  document.getElementById("myPicture").src=myPix[theAd];
+  setTimeout(rotate, 3*1000);
+}
+</script>
+  </footer>
 </body>
 </html>

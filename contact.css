@@ -1,3 +1,10 @@
+body{
+  width: 1140px;
+  background-color: pink;
+  margin:0 auto;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -106,4 +113,14 @@ input[type=submit]:hover {
   font-size: 20px;
   float: center;
   padding-left: 2%;
+}
+
+.fixedtop{
+  position:fixed;
+  top:0px;
+  min-height: 45px;
+  z-index:999;
+  background-color: #333;
+  width: 100%;
+  
 }

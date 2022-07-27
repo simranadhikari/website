@@ -1,3 +1,10 @@
+body{
+  width: 1140px;
+  background-color: black;
+  margin:0 auto;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -139,4 +146,14 @@ footer {
   font-size: 30px;
   background-repeat: no-repeat;
   background-color: #9c2f6c;
+}
+
+.fixedtop{
+  position:fixed;
+  top:0px;
+  min-height: 45px;
+  z-index:999;
+  background-color: #333;
+  width: 100%;
+  
 }

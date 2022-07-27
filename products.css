@@ -1,3 +1,10 @@
+body{
+  width: 1140px;
+  background-color: rgb(139, 81, 81);
+  margin:0 auto;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -111,78 +118,7 @@
   border: 5px solid #555;
 }
 
-.center8{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-}
 
-.center9{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-}
-
-.center10{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-}
-
-.center11{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-}
-
-.center12{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-}
-
-.center13{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-}
-
-.center14{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-}
-
-.center15{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 200px;
-  border: 5px solid #555;
-
-}
 
 .column1 {
 
@@ -247,80 +183,10 @@
 }
 
 
-.column8 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
+.p1 {
+  font-family:'Dancing Script', cursive;
 }
 
-
-.column9 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.column10 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-
-.column11 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.column12 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.column13 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-
-.column14 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.column15 {
-  float: left;
-  width: 25%;
-  text-align: center;
-
-
-  height: 300px; /* Should be removed. Only for demonstration */
-}
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -365,4 +231,15 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
+}
+
+
+.fixedtop{
+  position:fixed;
+  top:0px;
+  min-height: 45px;
+  z-index:999;
+  background-color: #333;
+  width: 100%;
+  
 }
