@@ -1,7 +1,9 @@
+
 body{
   width: 1140px;
-  background-color: rgb(162, 110, 159);
+  background-color:rgb(140, 153, 208);
   margin:0 auto;
+  
 }
 
 .logo{
@@ -14,7 +16,7 @@ body{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(232, 100, 100);
+  background-color:  #333;
   overflow: hidden;
 
   width: 1140px;
@@ -48,9 +50,10 @@ body{
 .header{
   
   text-align: center;
-  color: rgb(14, 13, 13);
+  color: rgb(110, 64, 120);
   font-size: 30px;
   height: 550px;
+  
 
 }
 
@@ -184,14 +187,15 @@ body{
 
 
 .shopnow {
-  padding: 60px;
+  
   text-align: center;
   background: #1abc9c;
   color: white;
   font-size: 30px;
   background-image: url(images/ba.jpg);
-  height: 220px;
+  height: 350px;
   opacity: 0.8;
+  width:1140px;
 
  
 }
@@ -199,7 +203,7 @@ body{
 footer {
   text-align: center;
   padding: 3px;
-  background-color: DarkSalmon;
+  background-color:#c57ca5;
   color: white;
 }
 
@@ -238,6 +242,7 @@ input[type=submit]:hover {
 .part2{
   width: 25%;
   float: left;
+  color: rgb(255, 255, 255);
 }
 
 .part3{
@@ -256,7 +261,7 @@ input[type=submit]:hover {
 
 .right{
   float: right;
-  background-color:yellow;
+  color:rgb(246, 246, 239);
 }
 
 .fixedtop{
@@ -264,7 +269,22 @@ input[type=submit]:hover {
   top:0px;
   min-height: 45px;
   z-index:999;
-  background-color: #333;
-  width: 100%;
+  background-color:#423c3f;;
+  width: 75%;
   
+}
+
+.container{
+  background-color:white;
+}
+
+.container1{
+  background-color:#474244;
+}
+
+.part5{
+  background-color:#474244;
+  height: 45px;
+  color: white;
+
 }

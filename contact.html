@@ -1,89 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Simran's Cafe</title>
+  <title>Simran's Confectionery</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
-</head>
-<body>
-  <div class="topnav"><div class="container-fluid fixedtop">
-  	<a  href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="imagegallery.html">Menu</a>
-    <a href="courses.html">Courses</a>
-    <a href="register.html">Booking</a>
-    <a class="active" href="contact.html">Contact</a>
-  </div></div>
-
-  <div class="aboutheader">
-    <h1>Contact us</h1>
-    <p></p>
-  </div><br/>
-
-  <div class="contactinfo">
-    <div class="map-responsive" style="background-color:white;">
-      <h1></h1>
-       <iframe src="https://maps.google.com/maps?q=satdobato&t=k&z=13&ie=UTF8&iwloc=&output=embed" width="50%" height="460"  style="border:0" allowfullscreen></iframe>
-        <div class="location">
-          <h5><i class="fas fa-phone"></i> +44 2006543210</h5>
-          <h5><i class="fas fa-map-marker-alt"></i> London, UK</h5>
-          <h5><i class="fas fa-envelope"></i> londonemporium@gmail.com</h5>
-       
-        </div>
-    </div>
-
-    <div class="contact2" style="background-color:white;">   
-      <form action="#" name = "myForm" onsubmit = "return(validate());">
-        <label for="fname">First Name</label>
-        <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="fname">Last Name</label>
-        <input class="form-control" type="text" id="fname" name="lastname" placeholder="Your name..">
-        <label for="fname">Email</label>
-        <input class="form-control" type="text" id="fname" name="email" placeholder="Your name..">
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        <input type="submit" value="Submit">
-        <br/>
-      </form>
-    </div> 
-
-  </div>
-
-<footer>
-  <p>@2022 The Simran's Bakery: All rights reserved.</p>
-</footer>
-
+  <style>
+    a:link {
+      color: rgb(67, 111, 243);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: rgb(248, 249, 248);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: rgb(205, 221, 102);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: rgb(168, 33, 33);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    </style>
+    
 <script type="text/javascript">
-function validate() {
-if( document.myForm.firstname.value == "" ) {
-alert( "Please provide your first name!" ); document.myForm.firstname.focus() ; return false;
-}
-if( document.myForm.lastname.value == "" ) {
-alert( "Please provide your last name!" ); document.myForm.lastname.focus() ; return false;
-}
-if( document.myForm.email.value == "" ) {
-alert( "Please provide your Email!" ); document.myForm.email.focus() ; return false;
-}
-if( document.myForm.country.value == "" ) {
-alert( "Please provide your Country!" ); document.myForm.country.focus() ; return false;
-}
-if( document.myForm.subject.value == "" ) {
-alert( "Please provide your Subject!" ); document.myForm.subject.focus() ; return false;
-}
+  function validate() {
+  if( document.myForm.firstname.value == "" ) {
+  alert( "Please provide your first name!" ); document.myForm.firstname.focus() ; return false;
+  }
+  if( document.myForm.lastname.value == "" ) {
+  alert( "Please provide your last name!" ); document.myForm.lastname.focus() ; return false;
+  }
+  if( document.myForm.email.value == "" ) {
+  alert( "Please provide your Email!" ); document.myForm.email.focus() ; return false;
+  }
+  if( document.myForm.country.value == "" ) {
+  alert( "Please provide your Country!" ); document.myForm.country.focus() ; return false;
+  }
+  if( document.myForm.subject.value == "" ) {
+  alert( "Please provide your Subject!" ); document.myForm.subject.focus() ; return false;
+  }
+  
+  
+  
+  return( true );
+  }
+
+  </script>
+  </head>
+<body> <div class="container">
+    <div class="topnav"><div class="container-fluid fixedtop">
+      <a  href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="imagegallery.html">Menu</a>
+      <a href="courses.html">Courses</a>
+      <a href="register.html">Booking</a>
+      <a class="active" href="contact.html">Contact</a>
+    </div></div>
+  
+    <div class="aboutheader">
+      <h1>Contact us</h1>
+    </div><br/>
+  
+    <div class="contactinfo">
+      <div class="map-responsive" style="background-color:white;">
+         <iframe src="https://maps.google.com/maps?q=satdobato&t=k&z=13&ie=UTF8&iwloc=&output=embed" width="50%" height="460"  style="border:0" allowfullscreen></iframe>
+          <div class="location">
+            <h5><i class="fas fa-phone"></i>+(977) 9876543210</h5>
+                <h5><i class="fas fa-map-marker-alt"></i> Satdobato,Lalitpur</h5>
+                <h5><i class="fas fa-envelope"></i>simranconfectionery@gmail.com</h5>
+          </div>
+      </div>
+  
+      <div class="contact2" style="background-color:white;">   
+        <form action="#" name = "myForm" onsubmit = "return(validate());">
+          <label for="fname">First Name</label>
+          <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="fname">Last Name</label>
+          <input class="form-control" type="text" id="fname" name="lastname" placeholder="Your name..">
+          <label for="fname">Email</label>
+          <input class="form-control" type="text" id="fname" name="email" placeholder="Your name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+             <option value="australia">Australia</option>
+            <option value="usa">USA</option>
+            <option value="nepal">Nepal</option>
+            <option value="uk">London</option>
+            <option value="canada">Canada</option>
+            <option value="india">India</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Give description of the cakes..." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+          <br/>
+        </form>
+      </div> 
+  
+    </div>
+  
+    <footer class="container1">
+  
+      <div class ="row">
+      <div class="part1">
+          <img class="img-fluid" src="images/logo.jpg" alt="logo" width="150px" height="100 px">
+          <p>
+            Simran's Confectionery is one of the famous bakery all over the world. The bakery items made here with natural ingredients...<a href="about.html">Read More...</a>
+            </p>
+            <a style="color:#0000ff"  href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook-square "></i></a>
+            <a style="color:#b941ed"   href="https://www.instagram.com/"><i class="fab fa-2x fa-instagram"></i></a>
+            
+            <a style="color:#20b2aa" href="https://twitter.com/"><i class="fab fa-2x fa-twitter-square"></i></a>
+           <a style="color:#008000" href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-2x fa-google-plus"></i></a>
+      </div>
+           <div class="part2">
+                  <h3>Important Links</h3>
+                 
+                  
+                  <a href="about.html">Privacy Policy</a><br>
+                          <a href="about.html">Nutritional Facts </a><br>
+                          <a href="about.html">Order Online/ Products</a><br>
+                          <a href="about.html">Allergy Information</a><br>
+                          <a href="about.html">Store Items/ Shipping</a><br>
+                          <a href="about.html">Hygiene Standard</a><br>
+                         
+                </div>
+                <div class="part3">
+                      <h3>Our Services</h3>
+                      <a href="about.html">Free Delivery</a><br>
+                      <a href="about.html">Customized Cake</a><br>
+                      <a href="about.html">Catering Service</a><br> 
+                      <a href="about.html">Discount and offers</a><br>
+                      <a href="about.html">Live Cupcake Bar</a><br> 
+                      <a href="about.html">Special Orders</a><br> 
+                     
 
 
 
-return( true );
-}
-</script> 
+                  </div>
+                
+                  <div class="part4">
+                      <h3>Contact Us</h3>
+                      
 
-</body>
-</html>
+                      <a class="p-1" href="tel:+9779876543210"><i class="fas fa-phone blue"></i>+(977) 9876543210</a><br>
+                      <a class="p-1" href="mailto:simranconfectionery@gmail.com"><i class="fas fa-envelope-square red"></i>simranconfectionery@gmail.com</a>
+
+                   
+                    
+                    </div>
+
+                   </div><!--row closes-->
+              
+              
+            <hr>
+              
+              <div class="part5">
+
+              <p class="left">Copyrights &copy; 2020 - All rights reserved</p>
+              <p class="right"><a href="#">Back to top</a></p>
+              
+              
+              </div>
+    </footer>
+              </div>
+  </body>
+  </html>
+        
