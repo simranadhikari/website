@@ -5,11 +5,23 @@ body{
   margin:0 auto;
 }
 
+.logo{
+  width: 100px;
+  height: 50px;
+  float: left;
+  padding-right: 150px;
+
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color:  #333;
   overflow: hidden;
+
+  width: 1140px;
+  
+
 }
 
 /* Style the links inside the navigation bar */
@@ -20,6 +32,7 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 }
 
 /* Change the color of links on hover */
@@ -32,6 +45,28 @@ body{
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+
+a:link {
+  color: rgb(155, 243, 67);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(248, 249, 248);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(205, 221, 102);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(168, 33, 33);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .aboutheader {
@@ -55,9 +90,11 @@ body{
 
 .about2 {
   float: right;
-  width: 55%;
+  width: 50%;
   padding-top: 10px;
   height: 500px; 
+  padding-right: 5%;;
+  
  
 
 }
@@ -85,7 +122,7 @@ footer {
 
 .table1{
   width: 1140px;
-  height: 1000px;
+  height: 200px;
   background-color: white;
 
 }
@@ -113,6 +150,10 @@ table, th, td {
   background-color:#474244;
 }
 
+.container2{
+  background-color:#bc7f97;
+ color:white;
+}
 
 .part1{
   width: 25%;
@@ -134,6 +175,15 @@ table, th, td {
   width: 25%;
   float: right;
 }
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  color:rgb(246, 246, 239);
+}
+
 
 .part5{
   background-color:#474244;

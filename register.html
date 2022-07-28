@@ -1,43 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Simran's Cafe</title>
+  <title>Simran's Confectionery</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="register.css">
-  <style>
-    a:link {
-      color: rgb(67, 111, 243);
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:visited {
-      color: rgb(248, 249, 248);
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:hover {
-      color: rgb(205, 221, 102);
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    a:active {
-      color: rgb(168, 33, 33);
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    </style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
 </head>
 <body onload="clockstart()">
-    <div class="container">
-  <div class="topnav"><div class="container-fluid fixedtop">
-    <a  href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="imagegallery.html">Menu</a>
-    <a href="courses.html">Courses</a>
-    <a class="active" href="register.html">Booking</a>
-    <a href="contact.html">Contact</a>
-  </div></div>
+  <div class="container">
+    <div class="topnav"> <div class="container-fluid fixedtop">
+      <img src="images/logo.jpg" class="logo"> 
+      <a  href="index.html"><i class="fas fa-home "></i>Home</a>
+      <a href="about.html" target="_blank"><i class="fab fa-adn"></i>About</a>
+      <a href="imagegallery.html" target="_blank"><i class="fas fa-images"></i>Menu</a>
+      <a href="courses.html" target="_blank"><i class="fas fa-book-open"></i>Courses</a>
+      <a class="active" href="register.html" target="_blank"><i class="fas fa-book"></i>Booking</a>
+      <a href="contact.html" target="_blank"><i class="fas fa-phone-square"></i>Contact</a>
+    </div>
+  
 
 <div class="aboutheader">
     <h1>Booking Form</h1>
@@ -52,11 +33,9 @@
 
 <div class = "register">
 
-<form action="#" style="border:1px solid #ccc">
-  <div class="container">
+<form action="#" style="border:1px solid rgb(5, 5, 5)">
+  <div class="formdetails">
     
-  
-
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
 
@@ -70,7 +49,7 @@
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
     
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+   
 
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button>
@@ -78,6 +57,7 @@
     </div>
   </div>
 </form>
+</div>
 </div>
 <footer class="container1">
   
@@ -88,15 +68,14 @@
           Simran's Confectionery is one of the famous bakery all over the world. The bakery items made here with natural ingredients...<a href="about.html">Read More...</a>
           </p>
           <a style="color:#0000ff"  href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook-square "></i></a>
-          <a style="color:#b941ed"   href="https://www.instagram.com/"><i class="fab fa-2x fa-instagram"></i></a>
+          <a style="color:#b941ed"  href="https://www.instagram.com/"><i class="fab fa-2x fa-instagram"></i></a>
           
           <a style="color:#20b2aa" href="https://twitter.com/"><i class="fab fa-2x fa-twitter-square"></i></a>
          <a style="color:#008000" href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-2x fa-google-plus"></i></a>
     </div>
          <div class="part2">
                 <h3>Important Links</h3>
-               
-                
+              
                 <a href="about.html">Privacy Policy</a><br>
                 <a href="about.html">Nutritional Facts </a><br>
                 <a href="about.html">Order Online/ Products</a><br>
@@ -180,7 +159,7 @@
     function clockstart()
     {
       timerId = setInterval(update, 50)
-      update()   //(*)
+      update()  
     }
 
     function update()
