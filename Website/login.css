@@ -1,6 +1,6 @@
 body{
     width: 1140px;
-    background-color:rgb(140, 153, 208);
+    background-color:#bda5be;
     margin:0 auto;
   }
   
@@ -42,7 +42,7 @@ body{
   
   
   a:link {
-    color: rgb(155, 243, 67);
+    color: rgb(246, 248, 244);
     background-color: transparent;
     text-decoration: none;
   }
@@ -99,6 +99,7 @@ body{
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    
   }
   
   button:hover {
@@ -118,7 +119,7 @@ body{
     padding-top: 16px;
     width: 89%;
     padding-right: 15px;
-    height: 400px;
+    height: 300px;
     background-color: white;
   }
   .container{

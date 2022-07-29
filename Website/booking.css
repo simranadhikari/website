@@ -1,6 +1,6 @@
 body{
   width: 1140px;
-  background-color:rgb(140, 153, 208);
+  background-color:#bda5be;
   margin:0 auto;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 
 a:link {
-  color: rgb(155, 243, 67);
+  color: rgb(246, 249, 243);
   background-color: transparent;
   text-decoration: none;
 }
