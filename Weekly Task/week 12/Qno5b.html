@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>qno5b</title>
+    </head>
+<body>
+<script>  
+function input_passwords(){
+ var data = document.getElementById('info').value;
+ var confirm_data= document.getElementById('confirm_data').value;
+ if (data != confirm_data) {
+     document.getElementById('message').style.color = 'red';
+     document.getElementById('message').innerHTML= 'Password didnot matched';
+ } 
+ else {
+     document.getElementById('message').style.color = 'green';
+     document.getElementById('message').innerHTML =' Password Matched ';
+ }
+}
+ </script> 
+<form >  
+<td> Enter the Password :</td>  
+<input type = "password" id = "info" value = ""> <br><br>
+<td>Confirm the Password :</td>  
+<input type = "password" id ="confirm_data" value = "" onkeyup="input_passwords()">   
+<span id = "message" style="color:rgb(53, 77, 235)">
+ </span>
+  <br><br>  
+  
+<input type = "submit" value = "Submit">   
+<button type = "reset" value = "Reset" >Reset</button>  
+</form>  
+
+</body>  
+</html>  

@@ -16,10 +16,7 @@ body{
 .topnav {
   background-color:  rgb(255, 255, 255);
   overflow: hidden;
-
   width: 1140px;
-  
-
 }
 
 /* Style the links inside the navigation bar */
@@ -30,7 +27,6 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
 }
 
 /* Change the color of links on hover */
@@ -45,17 +41,18 @@ body{
   color: white;
 }
 
-
 a:link {
   color: rgb(155, 243, 67);
   background-color: transparent;
   text-decoration: none;
 }
+
 a:visited {
   color: rgb(248, 249, 248);
   background-color: transparent;
   text-decoration: none;
 }
+
 a:hover {
   color: rgb(205, 221, 102);
   background-color: transparent;
@@ -67,20 +64,12 @@ a:active {
   text-decoration: underline;
 }
 
-
-
 .header{
-  
   text-align: center;
   background: #1abc9c;
   color: white;
   font-size: 30px;
 }
-
-
-
-
-
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -143,7 +132,6 @@ button:hover {
   background-color: white;
 }
 
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
@@ -163,8 +151,6 @@ button:hover {
   padding-left: 25%;
   height: 450px;
   padding-right: 25%;
-
-
 }
 
 .aboutheader {
@@ -177,27 +163,22 @@ button:hover {
   background-color: #845c88;
 }
 
-
 .fixedtop{
   position:fixed;
   top:0px;
   min-height: 45px;
   z-index:999;
   background-color: #333;
-  width: 75%;
-  
+  width: 1140px;
 }
 
 .container{
   background-color:rgb(210, 173, 173);
-  
 }
 
 .container1{
   background-color:#474244;
 }
-
-
 
 .part1{
   width: 25%;
@@ -232,7 +213,6 @@ button:hover {
   background-color:#474244;
   height: 45px;
   color: white;
-
 }
 
 footer {
@@ -241,6 +221,7 @@ footer {
   background-color:#c57ca5;
   color: white;
 }
+
 .row:after {
   content: "";
   display: table;

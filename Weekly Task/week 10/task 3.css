@@ -1,0 +1,100 @@
+body{
+    background-color:white;
+}
+#show{
+    background-color:white;
+}
+#show ul {
+    list-style-type:none;
+    position: absolute;
+    right:0px;
+    top:-20px;
+}
+#show ul li {
+    display: inline-block;
+    padding:10px;
+    border:0.5px solid black;
+    
+    
+  
+
+}
+#show p{
+    margin-right:10px;
+    position: absolute;
+    right:40px;
+    top:120px;
+}
+.row{
+    min-height:10px;
+    float:center;
+}
+.col100{
+    width:100%;
+}
+.col75{
+    width:75%;
+    float:left;
+}
+.col50{
+    width:50%;
+    float:left;
+}
+.col25{
+    width:25%;
+    float:left;
+    
+
+}
+#top{
+    background-color:rgb(175, 171, 165);
+    opacity: 30;
+    width:500px;
+    height:200px;
+    margin-left:100px;
+
+
+}
+#right{
+    background-color:rgb(171, 168, 161);
+    opacity: 50;
+    width:500px;
+    height:200px;
+    margin-top:5px;
+    margin-left:150px;
+
+
+}
+#out ul {
+    list-style-type:none;}
+#out ul li {
+    padding:10px;}
+.body1{
+    border-left:3px solid black;
+   height:250px;
+   position: relative;
+   left:750px;
+   top:380px;   
+}
+.body2{
+    border-left:3px solid black;
+   height:250px;
+   position: relative;
+   left:200px;
+   top:150px;
+
+}
+.foot{
+    background-color: rgb(100, 96, 92);
+    position: absolute;
+    left:0px;
+    border:2px solid rgb(9, 9, 9);
+    top:1000px;
+    width:2000px;
+    height:20px;}
+
+.p1 {
+        font-family:'Great Vibes', cursive;
+      }
+      
+    
